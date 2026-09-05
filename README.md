@@ -7,7 +7,15 @@ You will likely require <a href="https://fontsgeek.com/fonts/warnock-pro-regular
 </p>
 
 ## Preview
-<img width="975" height="1026" alt="2026-09-05-162417_hyprshot" src="https://github.com/user-attachments/assets/d860f17e-4b09-422d-bfe4-c89809f2cf60" />
+<table>
+  <tr>
+    <td>
+      <img width="975" height="1026"
+           alt="2026-09-05-162417_hyprshot"
+           src="https://github.com/user-attachments/assets/d860f17e-4b09-422d-bfe4-c89809f2cf60" />
+    </td>
+  </tr>
+</table>
 
 
 ## Color Palette
@@ -44,9 +52,29 @@ You will likely require <a href="https://fontsgeek.com/fonts/warnock-pro-regular
 5. Restart Obsidian and select the theme.
 
 ## Screenshots
-<img width="975" height="1026" alt="2026-09-05-162417_hyprshot" src="https://github.com/user-attachments/assets/d860f17e-4b09-422d-bfe4-c89809f2cf60" />
-<img width="975" height="1026" alt="2026-09-05-162440_hyprshot" src="https://github.com/user-attachments/assets/ab4ebd5b-e6ca-4f3c-b49f-29d29d7f89bb" />
-<img width="975" height="1026" alt="2026-09-05-162454_hyprshot" src="https://github.com/user-attachments/assets/78d9d072-c5a4-4c37-bbbd-7fd1cf2bf219" />
-<img width="975" height="1026" alt="2026-09-05-162506_hyprshot" src="https://github.com/user-attachments/assets/1c8e5e0d-948b-46fa-baa0-af1ab5f95897" />
-<img width="975" height="1026" alt="2026-09-05-162513_hyprshot" src="https://github.com/user-attachments/assets/2c6ad82d-9e13-4931-9610-ed0e487bbc57" />
+<table>
+  <tr>
+    <td align="center">
+      <img width="300" src="https://github.com/user-attachments/assets/d860f17e-4b09-422d-bfe4-c89809f2cf60" />
+    </td>
+    <td align="center">
+      <img width="300" src="https://github.com/user-attachments/assets/ab4ebd5b-e6ca-4f3c-b49f-29d29d7f89bb" />
+    </td>
+    <td align="center">
+      <img width="300" src="https://github.com/user-attachments/assets/78d9d072-c5a4-4c37-bbbd-7fd1cf2bf219" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="300" src="https://github.com/user-attachments/assets/1c8e5e0d-948b-46fa-baa0-af1ab5f95897" />
+    </td>
+    <td align="center">
+      <img width="300" src="https://github.com/user-attachments/assets/2c6ad82d-9e13-4931-9610-ed0e487bbc57" />
+    </td>
+    <td align="center">
+      <img width="300" src="https://github.com/user-attachments/assets/687786cf-e622-47da-8eda-48da348f4f50" />
+    </td>
+  </tr>
+</table>
+
 
