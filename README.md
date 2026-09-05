@@ -1,6 +1,6 @@
 # LessWrong Theme for Obsidian
 
-Unofficial Obsidian theme inspired by the visual style of [LessWrong](https://www.lesswrong.com/). This theme is built on top of [Minimal Theme](https://github.com/kepano/obsidian-minimal) by Steph Ango. Easy on the eyes. Supports dark mode.
+Unofficial Obsidian theme inspired by the visual style of [LessWrong.com](https://www.lesswrong.com/). This theme is built on top of [Minimal Theme](https://github.com/kepano/obsidian-minimal) by Steph Ango. Easy on the eyes. Supports dark mode.
 
 <p align="center">
 You will likely require the <a href="https://fontsgeek.com/fonts/warnock-pro-regular">Warnock Pro</a> font and its <a href="https://fontsgeek.com/fonts/warnock-pro-bold">bold</a> and <a href="https://fontsgeek.com/fonts/warnock-pro-bold-italic">italic</a> variants.
