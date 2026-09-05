@@ -2,7 +2,7 @@
 
 Unofficial Obsidian theme inspired by the visual style of [LessWrong](https://www.lesswrong.com/). This theme is built on top of [Minimal Theme](https://github.com/kepano) by Steph Ango.
 
-## Features
+## Fonts
 
 * **Body text:** `Warnock Pro`, with `Palatino`, `Palatino Linotype`, `Book Antiqua`, `Georgia`, and generic serif fallbacks
 * **Titles/headings:** `ETBembo` first, then `Warnock Pro` and the same serif fallback stack
