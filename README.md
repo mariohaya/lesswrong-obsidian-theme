@@ -38,17 +38,10 @@ You will likely require <a href="https://fontsgeek.com/fonts/warnock-pro-regular
 
 ## Installation
 
-1. Download `theme.css`.
-2. In your Obsidian vault, create:
-
-   `.obsidian/themes/LessWrong Inspired/`
-
-3. Place the file there as:
-
-   `theme.css`
-
-4. In Obsidian, open **Settings → Appearance → Themes**.
-5. Select **LessWrong Inspired**.
+1. Download `theme.css` and `manifest.json`
+2. In your Obsidian vault, create: `.obsidian/themes/LessWrong Inspired/` (with that specific directory name)
+3. Place the `theme.css` and `manifest.json` in this directory.
+5. Restart Obsidian and select the theme.
 
 ## Screenshots
 <img width="975" height="1026" alt="2026-09-05-162417_hyprshot" src="https://github.com/user-attachments/assets/d860f17e-4b09-422d-bfe4-c89809f2cf60" />
