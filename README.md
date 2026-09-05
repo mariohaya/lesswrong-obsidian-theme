@@ -15,6 +15,8 @@ You will likely require <a href="https://fontsgeek.com/fonts/warnock-pro-regular
 </p>
 
 ## Palette
+<img width="883" height="350" alt="image" src="https://github.com/user-attachments/assets/bf975276-e111-413b-b293-7deda23431ed" />
+
 
 **Light**
 
@@ -22,7 +24,7 @@ You will likely require <a href="https://fontsgeek.com/fonts/warnock-pro-regular
 <img src="https://img.shields.io/badge/%20-%20-F1EEE6?style=flat-square"> `#F1EEE6`
 <img src="https://img.shields.io/badge/%20-%20-292621?style=flat-square"> `#292621`
 <img src="https://img.shields.io/badge/%20-%20-6D675F?style=flat-square"> `#6D675F`
-<img src="https://img.shields.io/badge/%20-%20-8A4937?style=flat-square"> `#8A4937`
+<img src="https://img.shields.io/badge/%20-%20-609940?style=flat-square"> `#8cb476`
 
 **Dark**
 
@@ -30,7 +32,7 @@ You will likely require <a href="https://fontsgeek.com/fonts/warnock-pro-regular
 <img src="https://img.shields.io/badge/%20-%20-191816?style=flat-square"> `#191816`
 <img src="https://img.shields.io/badge/%20-%20-DDD8CF?style=flat-square"> `#DDD8CF`
 <img src="https://img.shields.io/badge/%20-%20-AAA39A?style=flat-square"> `#AAA39A`
-<img src="https://img.shields.io/badge/%20-%20-C98267?style=flat-square"> `#C98267`
+<img src="https://img.shields.io/badge/%20-%20-609940?style=flat-square"> `#8cb476`
 
 ## Installation
 
