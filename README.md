@@ -1,20 +1,6 @@
-# LessWrong Inspired for Obsidian
+# LessWrong Theme for Obsidian
 
-An unofficial Obsidian theme inspired by the visual style of LessWrong: warm neutral backgrounds, serif-first reading typography, restrained accents, flat UI, and essay-focused spacing.
-
-This theme is built on top of Minimal Theme by Steph Ango and retains its compatibility-oriented structure while replacing the visual layer.
-
-## Features
-
-- Warm, paper-like light theme
-- Serif typography for notes and reading surfaces
-- Narrow, essay-oriented content width
-- Muted reddish-brown accents
-- Flat interface with no decorative shadows
-- Active tabs visually connected to the note surface
-- Subtle inactive tab strip
-- Understated tags, metadata, callouts, tables, and code blocks
-- Minimal-style Obsidian compatibility retained underneath
+Unofficial Obsidian theme inspired by the visual style of LessWrong. This theme is built on top of [Minimal Theme](https://github.com/kepano) by Steph Ango.
 
 ## Installation
 
@@ -30,28 +16,8 @@ This theme is built on top of Minimal Theme by Steph Ango and retains its compat
 4. In Obsidian, open **Settings → Appearance → Themes**.
 5. Select **LessWrong Inspired**.
 
-## Optional plugins
-
-The underlying theme structure comes from Minimal Theme, so some compatibility and customization behavior is inherited from that ecosystem. Minimal Theme Settings and Hider may be useful, but they are not required for the core visual theme.
-
 ## Screenshots
+<img width="942" height="1026" alt="2026-09-05-113748_hyprshot" src="https://github.com/user-attachments/assets/f7420611-1908-4adb-9286-3b47802dd5d5" />
+<img width="942" height="1026" alt="2026-09-05-113755_hyprshot" src="https://github.com/user-attachments/assets/435dc853-b27e-499c-a7e9-56819ea58291" />
+<img width="942" height="1026" alt="2026-09-05-113844_hyprshot" src="https://github.com/user-attachments/assets/9e2f6932-51fd-40da-b358-974d3b008edb" />
 
-Add screenshots here once the theme is ready for release.
-
-Suggested files:
-
-- `screenshots/editor.png`
-- `screenshots/tabs.png`
-- `screenshots/tags.png`
-
-## Credits
-
-- Based on [Minimal Theme](https://github.com/kepano/obsidian-minimal) by Steph Ango (@kepano).
-- Visual direction inspired by LessWrong.
-- Additional third-party color-scheme notices are preserved in `theme.css`.
-
-## License
-
-MIT. See [LICENSE](LICENSE).
-
-This project is unofficial and is not affiliated with, endorsed by, or maintained by LessWrong.
