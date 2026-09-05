@@ -48,7 +48,7 @@ SOFTWARE.
 /* Variables */
 body {
   --font-editor-theme:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Ubuntu,sans-serif;
-  --font-editor:var(--font-editor-override), var(--font-text-override), var(--font-editor-theme);
+  --font-editor: var(--font-editor-override, "Warnock Pro"), var(--font-text-override, "Warnock Pro"), var(--font-lw-body);
   /* Bases */
   --bases-table-column-border-width: 0px;
   --bases-header-border-width: 0;
@@ -8804,13 +8804,17 @@ settings:
    --------------------------------------------------------------------------- */
 
 body {
-  /* Typography */
-  --font-editor-theme: Georgia, "Times New Roman", Times, serif;
-  --font-text-theme: Georgia, "Times New Roman", Times, serif;
-  --font-interface-theme: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
-  --font-editor: var(--font-editor-override, Georgia), var(--font-text-override, Georgia), Georgia, "Times New Roman", Times, serif;
-  --font-text: var(--font-text-override, Georgia), Georgia, "Times New Roman", Times, serif;
-  --font-interface: var(--font-interface-override, -apple-system), -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  /* Typography — mirrors LessWrong's title, body, and UI font stacks. */
+  --font-lw-title: "ETBembo", "Warnock Pro", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-lw-body: "Warnock Pro", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-lw-ui: Calibri, "gill-sans-nova", "Gill Sans", "Gill Sans MT", "Myriad Pro", Arial, sans-serif;
+
+  --font-editor-theme: var(--font-lw-body);
+  --font-text-theme: var(--font-lw-body);
+  --font-interface-theme: var(--font-lw-ui);
+  --font-editor: var(--font-editor-override, "Warnock Pro"), var(--font-text-override, "Warnock Pro"), var(--font-lw-body);
+  --font-text: var(--font-text-override, "Warnock Pro"), var(--font-lw-body);
+  --font-interface: var(--font-interface-override, Calibri), var(--font-lw-ui);
 
   --normal-weight: 400;
   --line-width: 45rem;
@@ -8884,9 +8888,9 @@ body {
   --tx2: #6d675f;
   --tx3: #999187;
   --tx4: #554f48;
-  --ax1: #8a4937;
+  --ax1: #327e09;
   --ax2: #6f392b;
-  --ax3: #a65a43;
+  --ax3: #327e09;
   --hl1: rgba(155, 118, 77, 0.20);
   --hl2: rgba(222, 194, 112, 0.34);
 
@@ -8906,13 +8910,13 @@ body {
   --text-normal: #292621;
   --text-muted: #6d675f;
   --text-faint: #999187;
-  --text-accent: #8a4937;
+  --text-accent: #327e09;
   --text-accent-hover: #6f392b;
   --text-selection: rgba(155, 118, 77, 0.20);
   --text-highlight-bg: rgba(222, 194, 112, 0.34);
   --text-formatting: #aaa298;
 
-  --interactive-accent: #8a4937;
+  --interactive-accent: #327e09;
   --interactive-accent-hover: #6f392b;
   --interactive-normal: #ebe7de;
   --divider-color: #ddd7cc;
@@ -8992,10 +8996,9 @@ body {
 /* Serif is reserved for the actual reading/writing surface. */
 .markdown-preview-view,
 .markdown-source-view.mod-cm6 .cm-scroller,
-.workspace-leaf-content[data-type="markdown"] .inline-title,
 .markdown-embed-content,
 .popover.hover-popover .markdown-embed {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: var(--font-lw-body);
 }
 
 /* Keep chrome and metadata quiet, compact, and sans-serif. */
@@ -9015,7 +9018,7 @@ body {
 .search-result-container,
 .backlink-pane,
 .outgoing-link-pane {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-lw-ui);
 }
 
 /* Main note should read like an essay, not a dashboard. */
@@ -9029,7 +9032,7 @@ body {
 
 .markdown-rendered,
 .markdown-source-view.mod-cm6 .cm-content {
-  line-height: 1.66;
+  line-height: 1.60;
 }
 
 .markdown-rendered p {
@@ -9044,7 +9047,7 @@ body {
 .markdown-rendered h5,
 .markdown-rendered h6,
 .markdown-source-view.mod-cm6 .HyperMD-header {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: var(--font-lw-title);
   color: var(--text-normal);
   letter-spacing: -0.012em;
 }
@@ -9110,7 +9113,7 @@ body {
 
 .tag,
 a.tag {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-lw-ui);
   font-weight: 500;
 }
 
@@ -9121,6 +9124,7 @@ a.tag {
   border-inline-start: 2px solid var(--quote-opening-modifier);
   color: var(--text-muted);
   background: transparent;
+  text-align: center;
 }
 
 .markdown-source-view.mod-cm6 .HyperMD-quote {
@@ -9129,13 +9133,11 @@ a.tag {
 
 .callout {
   border: 1px solid var(--background-modifier-border);
-  border-inline-start: 3px solid rgba(var(--callout-color), 0.65);
   border-radius: 0;
-  background: rgba(var(--callout-color), 0.035);
+  background: transparent;
 }
-
 .callout-title {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-lw-ui);
   font-size: 0.82em;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -9176,7 +9178,7 @@ a.tag {
 .markdown-source-view.mod-cm6 .cm-table-widget th {
   background: transparent;
   color: var(--text-normal);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-lw-ui);
   font-weight: 600;
 }
 
@@ -9215,7 +9217,7 @@ body {
 .nav-file-title,
 .nav-folder-title {
   border-radius: 0;
-  font-size: 0.94em;
+  font-size: 0.8em;
 }
 
 .nav-file-title.is-active,
@@ -9302,3 +9304,35 @@ body :focus-visible {
   }
 }
 
+body {
+  --inline-title-size: 2.5em;
+}
+
+.inline-title {
+  font-size: var(--inline-title-size) !important;
+}
+
+.external-link {
+  background-size: 0.75em 0.75em;
+  background-position: calc(100% - 1px) 45%;
+  padding-right: 1em;
+}
+
+body {
+  --blockquote-size: 1.15em;
+}
+
+.markdown-rendered blockquote {
+  position: relative;
+  border-inline-start: none;
+}
+
+.markdown-rendered blockquote::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 1em; /* move line right */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e0e0e0;
+}
