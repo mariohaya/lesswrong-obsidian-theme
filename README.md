@@ -4,8 +4,15 @@ Unofficial Obsidian theme inspired by the visual style of [LessWrong](https://ww
 
 ## Features
 
-- **Serif:** Georgia, Times New Roman, Times
-- **Sans-serif:** -apple-system, BlinkMacSystemFont, Segoe UI, Inter, Roboto, Helvetica, Arial
+* **Body text:** `Warnock Pro`, with `Palatino`, `Palatino Linotype`, `Book Antiqua`, `Georgia`, and generic serif fallbacks
+* **Titles/headings:** `ETBembo` first, then `Warnock Pro` and the same serif fallback stack
+* **Interface/UI:** `Calibri`, `gill-sans-nova`, `Gill Sans`, `Gill Sans MT`, `Myriad Pro`, `Arial`, and generic sans-serif
+* **Obsidian font overrides:** respects Obsidian’s editor, text, and interface font override settings before falling back to the theme stacks
+
+
+<p align="center">
+You will likely require <a href="https://fontsgeek.com/fonts/warnock-pro-regular">Warnock Pro</a> and its <a href="https://fontsgeek.com/fonts/warnock-pro-bold">bold</a> and <a href="https://fontsgeek.com/fonts/warnock-pro-bold-italic">italic</a> variants.
+</p>
 
 ## Palette
 
