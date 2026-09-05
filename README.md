@@ -2,6 +2,29 @@
 
 Unofficial Obsidian theme inspired by the visual style of [LessWrong](https://www.lesswrong.com/). This theme is built on top of [Minimal Theme](https://github.com/kepano) by Steph Ango.
 
+## Features
+
+- **Serif:** Georgia, Times New Roman, Times
+- **Sans-serif:** -apple-system, BlinkMacSystemFont, Segoe UI, Inter, Roboto, Helvetica, Arial
+
+## Palette
+
+**Light**
+
+<img src="https://img.shields.io/badge/%20-%20-FFFEFA?style=flat-square"> `#FFFEFA`
+<img src="https://img.shields.io/badge/%20-%20-F1EEE6?style=flat-square"> `#F1EEE6`
+<img src="https://img.shields.io/badge/%20-%20-292621?style=flat-square"> `#292621`
+<img src="https://img.shields.io/badge/%20-%20-6D675F?style=flat-square"> `#6D675F`
+<img src="https://img.shields.io/badge/%20-%20-8A4937?style=flat-square"> `#8A4937`
+
+**Dark**
+
+<img src="https://img.shields.io/badge/%20-%20-1F1E1B?style=flat-square"> `#1F1E1B`
+<img src="https://img.shields.io/badge/%20-%20-191816?style=flat-square"> `#191816`
+<img src="https://img.shields.io/badge/%20-%20-DDD8CF?style=flat-square"> `#DDD8CF`
+<img src="https://img.shields.io/badge/%20-%20-AAA39A?style=flat-square"> `#AAA39A`
+<img src="https://img.shields.io/badge/%20-%20-C98267?style=flat-square"> `#C98267`
+
 ## Installation
 
 1. Download `theme.css`.
