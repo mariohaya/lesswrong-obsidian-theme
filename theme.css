@@ -822,6 +822,38 @@ figure {
   color: inherit;
 }
 
+/* Ctrl+F search highlights */
+
+/* Reading View — all matches */
+.markdown-rendered .search-highlight > div {
+  background-color: var(--search-match-bg) !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  border-radius: 2px;
+}
+
+/* Reading View — current match */
+.markdown-rendered .search-highlight > div.is-active {
+  background-color: var(--search-match-active-bg) !important;
+  box-shadow: inset 0 0 0 1px var(--search-match-active-border) !important;
+}
+
+/* Live Preview / editor */
+.markdown-source-view.mod-cm6 .obsidian-search-match-highlight,
+.markdown-source-view.mod-cm6 .cm-searchMatch {
+  background-color: var(--search-match-bg) !important;
+  box-shadow: none !important;
+  mix-blend-mode: normal !important;
+  border-radius: 2px;
+}
+
+/* Current match where CodeMirror exposes it separately */
+.markdown-source-view.mod-cm6 .cm-searchMatch.cm-searchMatch-selected {
+  background-color: var(--search-match-active-bg) !important;
+  box-shadow: inset 0 0 0 1px var(--search-match-active-border) !important;
+}
+
 .inline-title {
   padding-top: 16px;
 }
@@ -8817,6 +8849,7 @@ body {
   --font-interface: var(--font-interface-override, Calibri), var(--font-lw-ui);
 
   --normal-weight: 400;
+  --bold-modifier: 400;
   --line-width: 45rem;
   --line-height: 1.66;
   --line-height-normal: var(--line-height);
@@ -8881,6 +8914,9 @@ body {
   --bg1: #f8f5f0;
   --bg2: #f3f0e8;
   --bg3: rgba(92, 78, 62, 0.075);
+  --search-match-bg: rgba(205, 171, 105, 0.24);
+  --search-match-active-bg: rgba(176, 118, 82, 0.34);
+  --search-match-active-border: rgba(111, 57, 43, 0.60);
   --ui1: #ddd7cc;
   --ui2: #c8c0b3;
   --ui3: #a99f91;
@@ -8938,6 +8974,9 @@ body {
 .theme-dark.minimal-default-dark,
 .theme-dark.minimal-dark-tonal,
 .theme-dark.minimal-dark-black {
+	--search-match-bg: rgba(185, 138, 72, 0.24);
+	--search-match-active-bg: rgba(201, 130, 103, 0.38);
+	--search-match-active-border: rgba(221, 160, 136, 0.60);
   --bg1: #1f1e1b;
   --bg2: #191816;
   --bg3: rgba(235, 226, 211, 0.065);
