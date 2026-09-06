@@ -1,4 +1,4 @@
-# LessWrong Theme for Obsidian
+# LessWrong Inspired
 
 Unofficial Obsidian theme inspired by the visual style of [LessWrong.com](https://www.lesswrong.com/). This theme is built on top of [Minimal Theme](https://github.com/kepano/obsidian-minimal) by Steph Ango. Easy on the eyes. Supports dark mode (obviously).
 
